@@ -1,18 +1,10 @@
-package com.BloggingApplication.DAO;
+package DAO;
 
-import java.util.List;
-
-import com.BloggingApplication.model.Blog;
+import com.BloggingApplication.model.Rating;
 
 public interface BlogDAO {
+	
 
-	public void createBlog(Blog blog);
-	
-	public void deleteBlog(int blogID);
-public void updateBlog(int blogId,Blog blog);
-	
-	public Blog searchBlogByAuthor(String author);
-	
-	
+	 public void AvgRating(Rating rating);
 	
 }
